@@ -1,0 +1,165 @@
+.contenair{display:inline-flex;
+  flex-direction: row-reverse
+}
+
+.title {
+  font-family: fantasy;
+  text-align: center;
+  background-color:  rgb(223, 196, 157);;
+  border-radius: 25px;
+  width: 45%;
+  text-align: center;
+  margin-left: 35%;
+  margin-bottom: 5%;
+  border: solid rgb(44, 37, 37);;
+
+}
+
+.title:hover{ background-color: rgb(192, 92, 205);}
+
+.formu{
+  background-color: rgb(223, 196, 157);
+
+margin-left: 20%;
+margin-right: 3%;
+
+padding: 2%;
+border-radius: 11px;
+  border: solid rgb(44, 37, 37);
+  align-items: center;
+}
+
+
+body {
+  background-color: rgb(165, 124, 83);
+}
+
+.container_touit {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  background-color: rgb(223, 196, 157);;
+  width: 60%;
+  margin-right: 2%;
+  margin-top: 5%;
+  border-radius: 25px;
+  border: solid rgb(44, 37, 37);
+  overflow-wrap: break-word;
+  
+
+}
+
+.touitos {
+
+  color: black;
+  font-style: italic;
+  border: solid rgb(44, 37, 37);
+  max-width: 100%;
+  text-align: start;
+  border-radius: 11px;
+  margin: 1%;
+  padding: 1%;
+}
+
+.touitos:nth-child(3n+1) {
+  background-color: #ff6f91;
+}
+
+.touitos:nth-child(3n+2) {
+  background-color: #d65db1;
+}
+
+.touitos:nth-child(3n+3) {
+  background-color: #845ec2;
+}
+
+.name {
+  display: inline;
+  margin: 3%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.message {
+  margin: 3%;
+  font-family: fantasy;
+  
+}
+
+.enter{
+  font-family: fantasy;
+  font-weight: bolder;
+  display: flex;
+  
+  
+  
+}
+
+input{
+  
+  align-items: center;
+  background: #87CEFA;
+  border-radius: 11px;
+  padding: 2%;
+  margin: 4%;
+  
+  
+}
+input:hover{
+  background-color: #ff6f91;
+}
+ form{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  
+}
+.push{margin-left: 57px;
+font-family: fantasy;
+font-weight: bolder;
+font-size: 165%;
+
+
+}
+
+.container_trend{
+
+  display: flex;
+  align-content: flex-end;
+  align-items: baseline;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  background-color:  rgb(223, 196, 157);;
+  width: 60%;
+  margin-right: 2%;
+  margin-top: 5%;
+  border-radius: 25px;
+  border: solid rgb(44, 37, 37);
+  overflow-wrap: break-word;
+  padding: 3%;
+}
+.trend{color: black;
+  font-style: italic;
+  border: solid rgb(44, 37, 37);
+  max-width: 100%;
+  text-align: start;
+  border-radius: 11px;
+  padding:2%;
+  margin: 2%
+   }
+
+  .trend:nth-child(3n+1) {
+    background-color:#1E90FF;
+  }
+  
+  .trend:nth-child(3n+2) {
+    background-color: #87CEFA;
+  }
+  
+  .trend:nth-child(3n+3) {
+    background-color: #00BFFF;
+  }
+
+  .sendtouit{font-size: 155%
+  }
